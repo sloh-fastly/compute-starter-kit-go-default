@@ -6,3 +6,14 @@ description = "A basic starter kit that demonstrates routing, simple synthetic r
 language = "go"
 manifest_version = 3
 name = "Default starter for Go"
+
+[![Deploy to Fastly](https://deploy.edgecompute.app/button)](https://deploy.edgecompute.app/deploy)
+
+[setup.backends."api.openweathermap.org"]
+description = "OpenWeatherMap API Server"
+address = "api.openweathermap.org"
+port = 443
+
+[setup.dictionaries."weather_auth".items.key]
+description = "API token for openweathermap.org"
+input_type = "string"
