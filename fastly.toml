@@ -7,7 +7,7 @@ language = "go"
 manifest_version = 3
 name = "Default starter for Go"
 
-[![Deploy to Fastly](https://deploy.edgecompute.app/button)](https://deploy.edgecompute.app/deploy)
+
 
 [setup.backends."api.openweathermap.org"]
 description = "OpenWeatherMap API Server"
